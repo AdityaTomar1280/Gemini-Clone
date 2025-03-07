@@ -1,18 +1,10 @@
- 
-
-/*
- * Install the Generative AI SDK
- *
- * $ npm install @google/generative-ai
- */
-
 import {
     GoogleGenerativeAI,
     HarmCategory,
     HarmBlockThreshold,
   } from "@google/generative-ai"
   
-  const apiKey = //Insert your API Key here
+  const apiKey = "AIzaSyAXE0VlWGTfWlnCzN7BG0qF6J3codgtTjY"
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
